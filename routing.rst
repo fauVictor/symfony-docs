@@ -1846,7 +1846,7 @@ slashes (but only for ``GET`` and ``HEAD`` requests):
 Route URL   If the requested URL is ``/foo``          If the requested URL is ``/foo/``
 ==========  ========================================  ==========================================
 ``/foo``    It matches (``200`` status response)      It makes a ``301`` redirect to ``/foo``
-``/foo/``   It makes a ``301`` redirect to ``/foo/``  It matches (``200`` status response)
+``/foo/``   It makes a ``301`` redirect to ``/foo``  It matches (``200`` status response)
 ==========  ========================================  ==========================================
 
 Sub-Domain Routing
